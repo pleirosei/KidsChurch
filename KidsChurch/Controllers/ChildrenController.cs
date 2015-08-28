@@ -10,6 +10,7 @@ using KidsChurch.Models;
 
 namespace KidsChurch.Controllers
 {
+    [Authorize]
     public class ChildrenController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
