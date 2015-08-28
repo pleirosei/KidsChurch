@@ -29,5 +29,7 @@ namespace KidsChurch.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<KidsChurch.Models.Child> Children { get; set; }
     }
 }
